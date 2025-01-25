@@ -9,16 +9,14 @@ A web-based application built with Laravel to streamline and simplify the manage
 - **Enrollment System**: Track student enrollments in courses.  
 - **Payment Management**: Handle payment records and generate payment histories.  
 
-## Installation  
-
-### Prerequisites  
-- PHP >= 8.1  
-- Composer  
-- MySQL  
-- Node.js and npm  
-
+## Installation   
 ### Steps  
 1. Clone the repository:  
    ```bash  
    git clone https://github.com/your-username/student-management-system.git  
    cd student-management-system  
+
+2. Set up the .env file:
+   add your db details
+3. Laravel run command: php artisan serve
+
